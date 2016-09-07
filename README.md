@@ -1,10 +1,10 @@
 # docker image for prestashop container
-Docker image to run Prestashop (with memcached and french locale)
+Docker image to run Prestashop (with memcached and russian locale)
 
 ##Running the docker image with docker-compose
 ```
 prestashop:
-    image: shafan:php-for-prestashop
+    image: taime:php-for-prestashop
     restart: always
     ports: 
         - ":80"
